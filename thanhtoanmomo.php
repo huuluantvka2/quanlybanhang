@@ -31,8 +31,8 @@ $secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa';
 $orderInfo = "Thanh toán qua MoMo";
 $amount = strval($_POST["final_total"]??0);
 $orderId = time() ."";
-$redirectUrl = "http://localhost:8080/ecommerce/payment_success.php";
-$ipnUrl = "http://localhost:8080/ecommerce/payment_success.php";
+$redirectUrl = "https://quanlybanhang-nghi.herokuapp.com//payment_success.php";
+$ipnUrl = "https://quanlybanhang-nghi.herokuapp.com//payment_success.php";
 $extraData = "";
 
 
