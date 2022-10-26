@@ -25,14 +25,14 @@ function execPostRequest($url, $data)
 $ENDPOINT_URL = "https://test-payment.momo.vn/v2/gateway/api/create";
 
 
-$partnerCode = 'MOMOBKUN20180529';
-$accessKey = 'klm05TvNBzhg7h7j';
-$secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa';
-$orderInfo = "Thanh toán qua MoMo";
+$partnerCode = 'MOMOJJZK20211208';
+$accessKey = 'wh3WnjRgfHKLEn6d';
+$secretKey = '234XQPKV559z9T3tYlW58uuL5d022RgQ';
+$orderInfo = "Test thanh toan momo";
 $amount = strval($_POST["final_total"]??0);
 $orderId = time() ."";
-$redirectUrl = "https://quanlybanhang-nghi.herokuapp.com//payment_success.php";
-$ipnUrl = "https://quanlybanhang-nghi.herokuapp.com//payment_success.php";
+$redirectUrl = "https://quanlybanhang-nghi.herokuapp.com/payment_success.php";
+$ipnUrl = "https://quanlybanhang-nghi.herokuapp.com/payment_success.php";
 $extraData = "";
 
 

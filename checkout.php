@@ -43,8 +43,8 @@ if(!isset($_SESSION['cart_p_id'])) {
                             <th><?php echo LANG_VALUE_47; ?></th>
                             <th><?php echo LANG_VALUE_157; ?></th>
                             <th><?php echo LANG_VALUE_158; ?></th>
-                            <th><?php echo LANG_VALUE_159; ?></th>
-                            <th><?php echo LANG_VALUE_55; ?></th>
+                            <!-- <th><?php echo LANG_VALUE_159; ?></th>
+                            <th><?php echo LANG_VALUE_55; ?></th> -->
                             <th class="text-right"><?php echo LANG_VALUE_82; ?></th>
                         </tr>
                          <?php

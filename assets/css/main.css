@@ -205,14 +205,14 @@ a:hover {
 
 .nav {
   /* background: #0d1452; */
-  background: #232f3e;
+  background: #00A859;
 }
 
 .menu-container {
   width: 100%;
   margin: 0 auto;
   /* background: #0d1452; */
-  background: #232f3e;
+  background: #00A859;
 }
 
 .menu-mobile {
@@ -2118,7 +2118,7 @@ div.pagination span.disabled {
 .home-newsletter {
   padding: 80px 0;
   /* background: #0d1452; */
-  background: #232f3e;
+  background: #00A859;
 }
 
 .home-newsletter .single {
